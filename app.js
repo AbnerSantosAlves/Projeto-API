@@ -6,7 +6,7 @@ function searchMovie() {
     const query = document.getElementById('movie-query').value;
     
 
-    const url = `${BASE_URL}/search/movie?api_key=${API_KEY}&query=${encodeURIComponent(query)}`;
+    const url = `${BASE_URL}/search/movie?api_key=${API_KEY}&query=${encodeURIComponent(query)}&language=pt-BR`;
     
 
     fetch(url)
