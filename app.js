@@ -25,7 +25,7 @@ function displayMovies(movies) {
     moviesContainer.innerHTML = '';  
 
     if (movies.length === 0) {
-        moviesContainer.innerHTML = '<p>No movies found.</p>';
+        moviesContainer.innerHTML = '<p>Nenhum filme encontrado</p>';
         return;
     }
 
